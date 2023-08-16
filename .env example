@@ -1,0 +1,13 @@
+## VARIABLES DE MYSQL
+
+HOST_DB = database-qr.cnip9sjfllto.us-east-2.rds.amazonaws.com
+NAME_DB = tiquets
+USER_DB = admin
+PASS_DB = Esp22Tru$.
+
+# HOST_DB = localhost
+# NAME_DB = eventsandqr
+# USER_DB = root
+# PASS_DB = Daniel2001
+
+SECRET_JWT = qr_tiquets?3231239
