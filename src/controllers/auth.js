@@ -8,6 +8,12 @@ const controllers = {};
 
 let secret = process.env.SECRET_JWT;
 
+// NOTE - RUTA DE COMPROBACION
+controllers.index = (req, res) => {
+    res.send('Servicio corriendo con éxito en el puerto 3001');
+    console.log('Servicio corriendo con éxito en el puerto 3001');
+};
+
 // NOTE - REGISTRO DE USUARIOS
 
 controllers.register = async(req,res) => {
